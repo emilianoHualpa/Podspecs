@@ -8,13 +8,20 @@ Pod::Spec.new do |s|
  s.author = "Emiliano Hualpa" 
  s.swift_version = '4.0'
  
- s.source = { :git => "https://github.com/emilianoHualpa/LogsFramework.git", :tag => s.version }
- s.source_files = "Share/**/*.swift"
+ #s.source = { :git => "https://github.com/emilianoHualpa/LogsFramework.git", :tag => s.version }
+ s.source = { :http => "https://www.dropbox.com/s/v8e8fceu8mr3eud/Binaries.zip?dl=0" }
+
+# s.source_files = "LogsFramework/Share/**/*.swift"
 
  s.ios.deployment_target = '10.0'
- s.ios.source_files = "iOS/**/*.swift"
+ #s.ios.source_files = "LogsFramework/iOS/**/*.swift"
+
+ s.ios.vendored_frameworks = 'LogsFramework.framework'
+
 
  s.watchos.deployment_target = '4.0'
- s.watchos.source_files = "WatchLogsFramework/WatchOS/**/*.swift"
+ #s.watchos.source_files = "WatchLogsFramework/WhatchLogs/WatchOS/**/*.swift"
+
+ s.watchos.vendored_frameworks = 'WhatchLogsFramework.framework'
 
 end
