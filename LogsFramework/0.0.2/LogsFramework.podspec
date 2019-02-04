@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
  s.swift_version = '4.0'
  
  #s.source = { :git => "https://github.com/emilianoHualpa/LogsFramework.git", :tag => s.version }
- s.source = { :http => "https://www.dropbox.com/s/v8e8fceu8mr3eud/Binaries.zip?dl=0" }
+ s.source = { :http => "https://www.dropbox.com/s/0uaejibwwma35f3/Binaries.zip?dl=0" }
 
 # s.source_files = "LogsFramework/Share/**/*.swift"
 
