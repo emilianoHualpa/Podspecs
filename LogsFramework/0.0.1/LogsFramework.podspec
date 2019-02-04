@@ -9,12 +9,12 @@ Pod::Spec.new do |s|
  s.swift_version = '4.0'
  
  s.source = { :git => "https://github.com/emilianoHualpa/LogsFramework.git", :tag => s.version }
- s.source_files = "Share/**/*.swift"
+ s.source_files = "LogsFramework/Share/**/*.swift"
 
  s.ios.deployment_target = '10.0'
- s.ios.source_files = "iOS/**/*.swift"
+ s.ios.source_files = "LogsFramework/iOS/**/*.swift"
 
  s.watchos.deployment_target = '4.0'
- s.watchos.source_files = "WatchOS/**/*.swift"
+ s.watchos.source_files = "WatchLogsFramework/WatchOS/**/*.swift"
 
 end
