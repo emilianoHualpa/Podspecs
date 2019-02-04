@@ -5,8 +5,8 @@ Pod::Spec.new do |s|
  s.description = "Framework to write logs in iOS and WatchOS"
  s.homepage = "https://github.com/emilianoHualpa/LogsFramework"
  s.license = { :type => "MIT" }
- s.author = "Cristian Barril" 
- s.swift_version = '4.0'
+ s.author = "Emiliano Hualpa" 
+ s.swift_version = '4.2'
  
  s.source = { :http => "http://localhost:80/LogsFramework.zip" }
 
