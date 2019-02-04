@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
  s.ios.source_files = "LogsFramework/iOS/**/*.swift"
 
  s.watchos.deployment_target = '4.0'
- s.watchos.source_files = "WatchLogsFramework/WatchOS/**/*.swift"
+ s.watchos.source_files = "WatchLogsFramework/WhatchLogs/WatchOS/**/*.swift"
 
 end
